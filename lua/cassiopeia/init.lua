@@ -28,5 +28,6 @@ Color.new("purple"     , palette.purple     )
 Color.new("grey"       , palette.grey       )
 
 require("cassiopeia.theme")
+require("cassiopeia.treesitter")
 require("cassiopeia.plugins")
 require("cassiopeia.languages")

@@ -157,3 +157,4 @@ Group.new('LspReferenceWrite'         , g.CocHighlightText , g.CocHighlightText 
 Group.new('healthError'               , g.Red              , g.Red              , g.Red                )
 Group.new('healthSuccess'             , g.Green            , g.Green            , g.Green              )
 Group.new('healthWarning'             , g.Yellow           , g.Yellow           , g.Yellow             )
+
