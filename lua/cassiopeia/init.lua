@@ -3,7 +3,6 @@
 -- │                       License: MIT                       │
 -- ╰──────────────────────────────────────────────────────────╯
 
-
 local Color = require("cassiopeia.utils").Color
 local palette = require("cassiopeia.palette")
 
@@ -29,7 +28,5 @@ Color.new("purple"     , palette.purple     )
 Color.new("grey"       , palette.grey       )
 
 require("cassiopeia.theme")
-require("cassiopeia.syntax")
-require("cassiopeia.old")
--- require("cassiopeia.plugins")
--- require("cassiopeia.languages")
+require("cassiopeia.plugins")
+require("cassiopeia.languages")
