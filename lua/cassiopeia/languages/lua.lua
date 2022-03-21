@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 Group.new('luaFunc'     , g.Green , g.Green , g.Green )
 Group.new('luaFunction' , g.Red   , g.Red   , g.Red   )

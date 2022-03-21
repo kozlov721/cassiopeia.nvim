@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- scss-syntax: https://github.com/cakebaker/scss-syntax.vim
 Group.new('scssAmpersand'              , g.Purple , g.Purple , g.Purple )

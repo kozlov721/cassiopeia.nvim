@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://github.com/vim-erlang/vim-erlang-runtime
 Group.new('erlangAtom'           , g.Fg         , g.Fg         , g.Fg         )

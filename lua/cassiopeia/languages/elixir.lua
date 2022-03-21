@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- vim-elixir: https://github.com/elixir-editors/vim-elixir
 Group.new('elixirBlockDefinition'        , g.Red          , g.Red          , g.Red          )

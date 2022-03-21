@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: http://www.drchip.org/astronaut/vim/index.html#SYNTAX_LISP
 Group.new('lispAtomMark' , g.Purple , g.Purple , g.Purple )

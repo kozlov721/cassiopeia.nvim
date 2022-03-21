@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://github.com/google/vim-ft-go
 Group.new('goConstants' , g.OrangeItalic , g.OrangeItalic , g.OrangeItalic )

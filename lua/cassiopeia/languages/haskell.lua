@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- haskell-vim: https://github.com/neovimhaskell/haskell-vim
 Group.new('haskellBrackets'        , g.Fg           , g.Fg           , g.Fg           )

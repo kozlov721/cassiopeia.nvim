@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://github.com/derekwyatt/vim-scala
 Group.new('scalaInterpolation'         , g.Purple , g.Purple , g.Purple )

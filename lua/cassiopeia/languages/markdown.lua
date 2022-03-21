@@ -1,7 +1,7 @@
 local Group = require('cassiopeia.utils').Group
-local c = require('cassiopeia.utils').c
-local s = require('cassiopeia.utils').s
-local g = require('cassiopeia.utils').g
+local c = require('cassiopeia.utils').colors
+local s = require('cassiopeia.utils').styles
+local g = require('cassiopeia.utils').groups
 
 Group.new('markdownBlockquote'        , g.Grey             , g.Grey             , g.Grey             )
 Group.new('markdownBold'              , c.none             , c.none             , s.bold             )
@@ -18,11 +18,11 @@ Group.new('markdownH6'                , c.purple           , c.none             
 Group.new('markdownHeadingDelimiter'  , g.Grey             , g.Grey             , g.Grey             )
 Group.new('markdownHeadingRule'       , g.Grey             , g.Grey             , g.Grey             )
 Group.new('markdownId'                , g.Yellow           , g.Yellow           , g.Yellow           )
-Group.new('markdownIdDeclaration'     , g.markdownLinkText , g.markdownLinkText , g.markdownLinkText )
 Group.new('markdownItalic'            , c.none             , c.none             , s.italic           )
 Group.new('markdownItalicDelimiter'   , c.grey             , c.none             , s.italic           )
 Group.new('markdownLinkDelimiter'     , g.Grey             , g.Grey             , g.Grey             )
 Group.new('markdownLinkText'          , g.Red              , g.Red              , g.Red              )
+Group.new('markdownIdDeclaration'     , g.markdownLinkText , g.markdownLinkText , g.markdownLinkText )
 Group.new('markdownLinkTextDelimiter' , g.Grey             , g.Grey             , g.Grey             )
 Group.new('markdownListMarker'        , g.Red              , g.Red              , g.Red              )
 Group.new('markdownOrderedListMarker' , g.Red              , g.Red              , g.Red              )

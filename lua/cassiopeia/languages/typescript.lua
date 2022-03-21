@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- vim-typescript: https://github.com/leafgarland/typescript-vim
 Group.new('typescriptBraces'                    , g.Fg           , g.Fg           , g.Fg           )

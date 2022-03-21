@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- vim-less: https://github.com/groenewege/vim-less
 Group.new('lessClass'     , g.Red    , g.Red    , g.Red    )

@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- vim-ps1: https://github.com/PProvost/vim-ps1
 Group.new('ps1BuiltIn'                , g.BlueItalic , g.BlueItalic , g.BlueItalic )

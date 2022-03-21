@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 Group.new('matlabArithmeticOperator' , g.Red       , g.Red       , g.Red       )
 Group.new('matlabArithmeticOperator' , g.Red       , g.Red       , g.Red       )

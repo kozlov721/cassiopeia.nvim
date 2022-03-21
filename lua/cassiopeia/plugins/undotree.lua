@@ -1,7 +1,7 @@
 local Group = require('cassiopeia.utils').Group
-local c = require('cassiopeia.utils').c
-local s = require('cassiopeia.utils').s
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
+local c = require('cassiopeia.utils').colors
+local s = require('cassiopeia.utils').styles
 
 -- https://github.com/mbbill/undotree
 Group.new('UndotreeBranch'      , g.Blue   , g.Blue   , g.Blue   )

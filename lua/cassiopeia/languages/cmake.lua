@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 Group.new('cmakeCommand'                            , g.Red        , g.Red        , g.Red        )
 Group.new('cmakeKWExternalProject'                  , g.Green      , g.Green      , g.Green      )

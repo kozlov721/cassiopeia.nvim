@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- dart-lang: https://github.com/dart-lang/dart-vim-plugin
 Group.new('dartClassDecl'     , g.Red          , g.Red          , g.Red          )

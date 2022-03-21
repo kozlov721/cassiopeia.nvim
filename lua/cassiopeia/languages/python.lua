@@ -1,7 +1,7 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
-local c = require('cassiopeia.utils').c
-local s = require('cassiopeia.utils').s
+local g = require('cassiopeia.utils').groups
+local c = require('cassiopeia.utils').colors
+local s = require('cassiopeia.utils').styles
 
 Group.new('pythonBuiltin'       , g.BlueItalic   , g.BlueItalic   , g.BlueItalic   )
 Group.new('pythonDecoratorName' , g.OrangeItalic , g.OrangeItalic , g.OrangeItalic )
@@ -28,16 +28,16 @@ Group.new('pythonRawOperator' , g.Red          , g.Red          , g.Red         
 Group.new('pythonRepeat'      , g.RedItalic    , g.RedItalic    , g.RedItalic    )
 
 -- semshi: https://github.com/numirias/semshi
-Group.new('semshiAttribute'       , g.OrangeItalic     , g.OrangeItalic     , g.OrangeItalic     )
-Group.new('semshiBuiltin'         , g.Green            , g.Green            , g.Green            )
-Group.new('semshiErrorChar'       , g.ALEErrorSign     , g.ALEErrorSign     , g.ALEErrorSign     )
-Group.new('semshiErrorSign'       , g.ALEErrorSign     , g.ALEErrorSign     , g.ALEErrorSign     )
-Group.new('semshiFree'            , g.Red              , g.Red              , g.Red              )
-Group.new('semshiGlobal'          , g.Green            , g.Green            , g.Green            )
-Group.new('semshiImported'        , g.BlueItalic       , g.BlueItalic       , g.BlueItalic       )
-Group.new('semshiLocal'           , g.Red              , g.Red              , g.Red              )
-Group.new('semshiParameter'       , g.OrangeItalic     , g.OrangeItalic     , g.OrangeItalic     )
-Group.new('semshiParameterUnused' , g.Grey             , g.Grey             , g.Grey             )
-Group.new('semshiSelected'        , g.CocHighlightText , g.CocHighlightText , g.CocHighlightText )
-Group.new('semshiSelf'            , g.BlueItalic       , g.BlueItalic       , g.BlueItalic       )
-Group.new('semshiUnresolved'      , c.orange           , c.none             , s.undercurl        )
+Group.new('semshiAttribute'       , g.OrangeItalic , g.OrangeItalic , g.OrangeItalic )
+Group.new('semshiBuiltin'         , g.Green        , g.Green        , g.Green        )
+Group.new('semshiErrorChar'       , c.red          , c.bg1          , nil            )
+Group.new('semshiErrorSign'       , c.red          , c.bg1          , nil            )
+Group.new('semshiFree'            , g.Red          , g.Red          , g.Red          )
+Group.new('semshiGlobal'          , g.Green        , g.Green        , g.Green        )
+Group.new('semshiImported'        , g.BlueItalic   , g.BlueItalic   , g.BlueItalic   )
+Group.new('semshiLocal'           , g.Red          , g.Red          , g.Red          )
+Group.new('semshiParameter'       , g.OrangeItalic , g.OrangeItalic , g.OrangeItalic )
+Group.new('semshiParameterUnused' , g.Grey         , g.Grey         , g.Grey         )
+Group.new('semshiSelected'        , c.none         , c.bg1          , nil            )
+Group.new('semshiSelf'            , g.BlueItalic   , g.BlueItalic   , g.BlueItalic   )
+Group.new('semshiUnresolved'      , c.orange       , c.none         , s.undercurl    )

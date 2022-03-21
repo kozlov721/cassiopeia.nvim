@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://github.com/JulesWang/css.vim
 Group.new('cssAttr'           , g.Green  , g.Green  , g.Green  )

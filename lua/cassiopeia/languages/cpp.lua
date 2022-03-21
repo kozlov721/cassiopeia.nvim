@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- vim-cpp-enhanced-highlight: https://github.com/octol/vim-cpp-enhanced-highlight
 Group.new('cLabel'                        , g.Red          , g.Red          , g.Red          )

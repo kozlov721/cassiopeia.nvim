@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- swift.vim: https://github.com/keith/swift.vim
 Group.new('swiftClosureArgument'     , g.OrangeItalic , g.OrangeItalic , g.OrangeItalic )

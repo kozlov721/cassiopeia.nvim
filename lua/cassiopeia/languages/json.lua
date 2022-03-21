@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 Group.new('jsonBoolean' , g.Blue  , g.Blue  , g.Blue  )
 Group.new('jsonBraces'  , g.Fg    , g.Fg    , g.Fg    )

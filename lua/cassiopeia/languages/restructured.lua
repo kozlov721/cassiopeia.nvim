@@ -1,7 +1,7 @@
 local Group = require('cassiopeia.utils').Group
-local c = require('cassiopeia.utils').c
-local s = require('cassiopeia.utils').s
-local g = require('cassiopeia.utils').g
+local c = require('cassiopeia.utils').colors
+local s = require('cassiopeia.utils').styles
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://github.com/marshallward/vim-restructuredtext
 Group.new('rstEmphasis'                            , c.none   , c.none  , s.italic    )

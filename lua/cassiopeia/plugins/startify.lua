@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- https://github.com/mhinz/vim-startify
 Group.new('StartifyBracket' , g.Grey   , g.Grey   , g.Grey   )

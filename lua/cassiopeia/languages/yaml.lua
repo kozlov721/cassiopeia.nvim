@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 Group.new('yamlConstant' , g.BlueItalic , g.BlueItalic , g.BlueItalic )
 Group.new('yamlKey'      , g.Red        , g.Red        , g.Red        )

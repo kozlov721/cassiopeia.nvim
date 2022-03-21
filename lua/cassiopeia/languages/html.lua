@@ -1,7 +1,7 @@
-local c = require('cassiopeia.utils').c
-local s = require('cassiopeia.utils').s
+local c = require('cassiopeia.utils').colors
+local s = require('cassiopeia.utils').styles
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- builtin: https://notabug.org/jorgesumle/vim-html-syntax
 Group.new('htmlArg'                 , g.Blue      , g.Blue      , g.Blue                          )

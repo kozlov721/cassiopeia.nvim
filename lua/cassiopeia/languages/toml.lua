@@ -1,7 +1,7 @@
 local Group = require('cassiopeia.utils').Group
-local c = require('cassiopeia.utils').c
-local g = require('cassiopeia.utils').g
-local s = require('cassiopeia.utils').s
+local c = require('cassiopeia.utils').colors
+local g = require('cassiopeia.utils').groups
+local s = require('cassiopeia.utils').styles
 
 Group.new('tomlBoolean'    , g.Blue      , g.Blue      , g.Blue      )
 Group.new('tomlKey'        , g.Red       , g.Red       , g.Red       )

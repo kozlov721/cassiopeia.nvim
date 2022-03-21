@@ -1,5 +1,5 @@
 local Group = require('cassiopeia.utils').Group
-local g = require('cassiopeia.utils').g
+local g = require('cassiopeia.utils').groups
 
 -- kotlin-vim: https://github.com/udalov/kotlin-vim
 Group.new('ktComplexInterpolation'      , g.Purple       , g.Purple       , g.Purple       )
