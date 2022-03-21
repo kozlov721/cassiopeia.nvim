@@ -30,5 +30,6 @@ Color.new("grey"       , palette.grey       )
 
 require("cassiopeia.theme")
 require("cassiopeia.syntax")
+require("cassiopeia.old")
 -- require("cassiopeia.plugins")
 -- require("cassiopeia.languages")
