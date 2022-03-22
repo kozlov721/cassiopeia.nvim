@@ -7,6 +7,9 @@ local capitalize = function(str)
   return (str:gsub("^%l", string.upper))
 end
 
+-- All colors from palette.lua are accessible under capitalized name and
+-- also with a combination with certain styles listed below.
+-- e.g. red -> Red, RedItalic, RedUnderline, ...
 for key, _ in pairs(require('cassiopeia.palette')) do
   local name = capitalize(key)
   Group.new(name, c[key], nil, nil)
@@ -91,7 +94,7 @@ inherit('Conditional'    , 'RedItalic'     )
 inherit('Constant'       , 'OrangeItalic'  )
 inherit('Define'         , 'Red'           )
 inherit('Delimiter'      , 'Fg'            )
-inherit('Error'          , 'Red'           )
+inherit('Error'          , 'RedUndercurl'  )
 inherit('Exception'      , 'Red'           )
 inherit('Float'          , 'Purple'        )
 inherit('Function'       , 'Orange'        )
