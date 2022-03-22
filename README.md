@@ -2,8 +2,6 @@
  <img src="pictures/cassiopeia_full.png">
 </p>
 
-More screenshots [here](./pictures).
-
 ### About
 
 A clean, dark theme for NeoVim written in Lua,
