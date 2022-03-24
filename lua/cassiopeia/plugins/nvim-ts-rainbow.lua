@@ -1,15 +1,15 @@
 local inherit = require('cassiopeia.utils').Inherit
 
-local colors = {
+local groups = {
   'BrightRed',
-  'Purple',
-  'Bg_red',
-  'Greenish',
-  'Gray',
-  'SkyBlue',
-  'Orange'
+  'BrightPurple',
+  'BrightYellow',
+  'BrightGreen',
+  'BrightGray',
+  'DarkerBlue',
+  'DarkOrange'
 }
 
-for i, group in ipairs(colors) do
+for i, group in ipairs(groups) do
   inherit(string.format('rainbowcol%d', i), group)
 end
