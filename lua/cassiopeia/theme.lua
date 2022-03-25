@@ -124,14 +124,14 @@ Link('Type'           , 'BlueItalic'    )
 Link('Typedef'        , 'Red'           )
 
 
-Link('diffAdded'     , 'Green'  )
-Link('diffChanged'   , 'Blue'   )
-Link('diffFile'      , 'Purple' )
-Link('diffIndexLine' , 'Purple' )
-Link('diffLine'      , 'Gray'   )
-Link('diffNewFile'   , 'Orange' )
-Link('diffOldFile'   , 'Yellow' )
-Link('diffRemoved'   , 'Red'    )
+Link('diffAdded'     , 'DiffAdd'   )
+Link('diffChanged'   , 'DiffChange')
+Link('diffFile'      , 'Purple'    )
+Link('diffIndexLine' , 'Purple'    )
+Link('diffLine'      , 'Gray'      )
+Link('diffNewFile'   , 'Orange'    )
+Link('diffOldFile'   , 'Yellow'    )
+Link('diffRemoved'   , 'DiffDelete')
 
 
 Link('gitcommitArrow'     , 'Gray'  )
