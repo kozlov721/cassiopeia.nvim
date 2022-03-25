@@ -1,1 +1,1 @@
-lua require('colorbuddy').colorscheme('cassiopeia')
+lua require('cassiopeia')
