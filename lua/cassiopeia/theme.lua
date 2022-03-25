@@ -175,6 +175,8 @@ Link('healthSuccess'             , 'Green'  )
 Link('healthWarning'             , 'Yellow' )
 
 
+--------- TreeSitter ---------
+
 Highlight('TSURI', {fg = c.magenta, style = 'italic,underline'})
 
 Link('TSAnnotation'        , 'Constant'         )
@@ -228,3 +230,9 @@ Link('TSTypeBuiltin'       , 'Type'             )
 Link('TSUnderline'         , 'Underlined'       )
 Link('TSVariable'          , 'Fg'               )
 Link('TSVariableBuiltin'   , 'PurpleItalic'     )
+
+
+--------- Haskell ---------
+
+Link('haskellPreProc', 'Red')
+Link('haskellWhere', 'PurpleItalic')
