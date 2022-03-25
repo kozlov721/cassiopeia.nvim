@@ -1,8 +1,7 @@
-local Group = require('cassiopeia.utils').Group
-local c = require('cassiopeia.utils').colors
-local g = require('cassiopeia.utils').groups
+local c = require('cassiopeia.palette')
+local Highlight = require('cassiopeia.utils').Highlight
 
-Group.new('GitGutterAdd'          , c.green  , c.bg1 , nil )
-Group.new('GitGutterChange'       , c.blue   , c.bg1 , nil )
-Group.new('GitGutterDelete'       , c.red    , c.bg1 , nil )
-Group.new('GitGutterChangeDelete' , c.purple , c.bg1 , nil )
+Highlight('GitGutterAdd'          , {fg = c.green  , bg = c.bg1})
+Highlight('GitGutterChange'       , {fg = c.blue   , bg = c.bg1})
+Highlight('GitGutterDelete'       , {fg = c.red    , bg = c.bg1})
+Highlight('GitGutterChangeDelete' , {fg = c.purple , bg = c.bg1})

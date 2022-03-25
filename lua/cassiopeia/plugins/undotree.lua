@@ -1,14 +1,13 @@
-local inherit = require('cassiopeia.utils').Inherit
-local s = require('cassiopeia.utils').styles
+local Link = require('cassiopeia.utils').Link
 
 -- https://github.com/mbbill/undotree
-inherit('UndotreeBranch'      , 'Blue'         )
-inherit('UndotreeCurrent'     , 'Blue'         )
-inherit('UndotreeHead'        , 'Purple'       )
-inherit('UndotreeNext'        , 'Yellow'       )
-inherit('UndotreeNode'        , 'Blue'         )
-inherit('UndotreeNodeCurrent' , 'Purple'       )
-inherit('UndotreeSavedBig'    , 'Red' , s.bold )
-inherit('UndotreeSavedSmall'  , 'Red'          )
-inherit('UndotreeSeq'         , 'Green'        )
-inherit('UndotreeTimeStamp'   , 'Gray'         )
+Link('UndotreeBranch'     , 'Blue'   )
+Link('UndotreeCurrent'    , 'Blue'   )
+Link('UndotreeHead'       , 'Purple' )
+Link('UndotreeNext'       , 'Yellow' )
+Link('UndotreeNode'       , 'Blue'   )
+Link('UndotreeNodeCurrent', 'Purple' )
+Link('UndotreeSavedBig'   , 'Red'    )
+Link('UndotreeSavedSmall' , 'Red'    )
+Link('UndotreeSeq'        , 'Green'  )
+Link('UndotreeTimeStamp'  , 'Gray'   )

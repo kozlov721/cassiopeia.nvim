@@ -1,4 +1,4 @@
-local inherit = require('cassiopeia.utils').Inherit
+local Link = require('cassiopeia.utils').Link
 
 local groups = {
   'BrightRed',
@@ -11,5 +11,5 @@ local groups = {
 }
 
 for i, group in ipairs(groups) do
-  inherit(string.format('rainbowcol%d', i), group)
+  Link(string.format('rainbowcol%d', i), group)
 end

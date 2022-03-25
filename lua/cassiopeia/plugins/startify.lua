@@ -1,11 +1,11 @@
-local inherit = require('cassiopeia.utils').Inherit
+local Link = require('cassiopeia.utils').Link
 
 -- https://github.com/mhinz/vim-startify
-inherit('StartifyBracket' , 'Gray'   )
-inherit('StartifyFile'    , 'Green'  )
-inherit('StartifyHeader'  , 'Red'    )
-inherit('StartifyNumber'  , 'Orange' )
-inherit('StartifyPath'    , 'Gray'   )
-inherit('StartifySection' , 'Blue'   )
-inherit('StartifySlash'   , 'Gray'   )
-inherit('StartifySpecial' , 'Gray'   )
+Link('StartifyBracket', 'Gray'   )
+Link('StartifyFile'   , 'Green'  )
+Link('StartifyHeader' , 'Red'    )
+Link('StartifyNumber' , 'Orange' )
+Link('StartifyPath'   , 'Gray'   )
+Link('StartifySection', 'Blue'   )
+Link('StartifySlash'  , 'Gray'   )
+Link('StartifySpecial', 'Gray'   )
