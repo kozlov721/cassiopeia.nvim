@@ -7,7 +7,7 @@ local capitalize = function(str)
 end
 
 -- All colors from palette.lua are accessible under capitalized name and
--- also with a combination with certain styles listed below.
+-- in a combination with certain styles listed below.
 -- e.g. red -> Red, RedItalic, RedUnderline, ...
 for key, color in pairs(require('cassiopeia.palette')) do
   local name = capitalize(key)
@@ -17,29 +17,27 @@ for key, color in pairs(require('cassiopeia.palette')) do
   end
 end
 
-Highlight('ColorColumn'    , { bg = c.bg1                      })
-Highlight('Cursor'         , { style = 'reverse'               })
-Highlight('CursorColumn'   , { bg = c.bg1                      })
-Highlight('CursorLine'     , { bg = c.bg1                      })
-Highlight('CursorLineNr'   , { fg = c.fg , bg = c.bg1          })
-Highlight('LineNr'         , { fg = c.grey                     })
-Highlight('DiffText'       , { style = 'reverse'               })
-Highlight('EndOfBuffer'    , { fg = c.bg0, bg = c.bg0          })
-Highlight('IncSearch'      , { fg = c.bg0, bg = c.bg_red       })
-Highlight('MatchParen'     , { bg = c.bg4                      })
-Highlight('PmenuSbar'      , { bg = c.bg2                      })
-Highlight('PmenuSel'       , { fg = c.bg0, bg = c.bg_red       })
-Highlight('PmenuThumb'     , { bg =  c.gray                    })
-Highlight('Search'         , { fg = c.bg0, bg =  c.bg_blue     })
-Highlight('Undercurled'    , { style = 'undercurl'             })
-Highlight('Underlined'     , { style = 'underline'             })
-Highlight('Visual'         , { bg = c.bg3                      })
-Highlight('VisualNOS'      , { bg = c.bg3, style = 'underline' })
-Highlight('WildMenu'       , { fg = c.bg0, bg = c.bg_blue      })
-Highlight('debugBreakpoint', { fg = c.bg0, bg = c.red          })
-Highlight('debugPC'        , { fg = c.bg0, bg = c.green        })
-
-
+Highlight('ColorColumn'     , {bg = c.bg1                       })
+Highlight('Cursor'          , {style = 'reverse'                })
+Highlight('CursorColumn'    , {bg = c.bg1                       })
+Highlight('CursorLine'      , {bg = c.bg1                       })
+Highlight('CursorLineNr'    , {fg = c.fg , bg = c.bg1           })
+Highlight('LineNr'          , {fg = c.grey                      })
+Highlight('DiffText'        , {style = 'reverse'                })
+Highlight('EndOfBuffer'     , {fg = c.bg0, bg = c.bg0           })
+Highlight('IncSearch'       , {fg = c.bg0, bg = c.bg_red        })
+Highlight('MatchParen'      , {bg = c.bg5                       })
+Highlight('PmenuSbar'       , {bg = c.bg2                       })
+Highlight('PmenuSel'        , {fg = c.bg0, bg = c.bg_red        })
+Highlight('PmenuThumb'      , {bg =  c.gray                     })
+Highlight('Search'          , {fg = c.bg0, bg =  c.bg_blue      })
+Highlight('Undercurled'     , {style = 'undercurl'              })
+Highlight('Underlined'      , {style = 'underline'              })
+Highlight('Visual'          , {bg = c.bg3                       })
+Highlight('VisualNOS'       , {bg = c.bg3, style = 'underline'  })
+Highlight('WildMenu'        , {fg = c.bg0, bg = c.bg_blue       })
+Highlight('debugBreakpoint' , {fg = c.bg0, bg = c.red           })
+Highlight('debugPC'         , {fg = c.bg0, bg = c.green         })
 Highlight('ErrorMsg'        , {fg = c.red , style = 'underline' })
 Highlight('FoldColumn'      , {fg = c.gray  , bg = c.bg1        })
 Highlight('Folded'          , {fg = c.gray  , bg = c.bg1        })
@@ -161,6 +159,9 @@ Link('helpSectionDelim'   , 'Gray'           )
 Link('helpSpecial'        , 'Purple'         )
 Link('helpURL'            , 'GreenUnderline' )
 
+Link('healthError'               , 'Red'    )
+Link('healthSuccess'             , 'Green'  )
+Link('healthWarning'             , 'Yellow' )
 
 Highlight('LspReferenceRead' , {fg=c.none, bg=c.bg1})
 Highlight('LspReferenceText' , {fg=c.none, bg=c.bg1})
@@ -170,9 +171,6 @@ Link('LspDiagnosticsError'       , 'Gray'   )
 Link('LspDiagnosticsHint'        , 'Gray'   )
 Link('LspDiagnosticsInformation' , 'Gray'   )
 Link('LspDiagnosticsWarning'     , 'Gray'   )
-Link('healthError'               , 'Red'    )
-Link('healthSuccess'             , 'Green'  )
-Link('healthWarning'             , 'Yellow' )
 
 
 --------- TreeSitter ---------

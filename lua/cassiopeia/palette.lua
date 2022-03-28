@@ -5,6 +5,7 @@ local colors = {
   bg2          = '#2F344D',
   bg3          = '#434964',
   bg4          = '#3A405E',
+  bg5          = '#5A506E',
   bg_red       = '#FF7A93',
   bg_green     = '#B9F27C',
   bg_blue      = '#7DA6FF',
