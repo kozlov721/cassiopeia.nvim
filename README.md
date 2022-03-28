@@ -1,5 +1,5 @@
 <p align="center">
- <img src="pictures/cassiopeia_full.png">
+ <img src="pictures/blur.png">
 </p>
 
 ### About
@@ -18,7 +18,7 @@ Plug 'tjdevries/colorbuddy.nvim'
 ```
 
 #### [Packer](https://github.com/wbthomason/packer.nvim)
-```vim
+```lua
 use {'kozlov721/cassiopeia.nvim'}
 ```
 
