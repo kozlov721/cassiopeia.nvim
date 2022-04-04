@@ -233,5 +233,6 @@ Link('TSVariableBuiltin'   , 'PurpleItalic'     )
 --------- Haskell ---------
 
 Link('haskellDecl'   , 'Red')
+Link('haskellDeriveKeyword', 'Red')
 Link('haskellPreProc', 'Red')
 Link('haskellWhere'  , 'PurpleItalic')
