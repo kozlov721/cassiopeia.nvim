@@ -17,6 +17,16 @@ in the Cassiopeia constelation.
 Plug 'tjdevries/colorbuddy.nvim'
 ```
 
+#### [Lazy](https://github.com/folke/lazy.nvim)
+```lua
+use {
+  'kozlov721/cassiopeia.nvim',
+  lazy = false,
+  priority = 1000,
+  config = function() vim.cmd [[colorscheme cassiopeia]] end,
+}
+```
+
 #### [Packer](https://github.com/wbthomason/packer.nvim)
 ```lua
 use {'kozlov721/cassiopeia.nvim'}
